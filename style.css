@@ -1,0 +1,747 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html,body{
+    height: 100%;
+    margin: 0%;
+}
+
+#nav{
+    color: aliceblue;
+    padding: 1%;
+    padding-top: 2%;
+    display: flex;
+    background-color: rgb(54, 53, 67);
+}
+
+#one{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 4%;
+}
+
+#one img{
+    width: 65%;
+}
+
+#first a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: x-large;
+    text-decoration: none;
+    color: aliceblue;
+}
+
+#first{
+    display: flex;
+    margin-left: 8%;
+}
+
+#sec a{
+    text-decoration: none;
+    color: aliceblue;
+    font-weight: bold;
+}
+
+#sec{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10%;
+}
+
+#third a{
+    text-decoration: none;
+    color: rgb(109,111,126);
+}
+
+#third{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 5%;
+}
+
+#fourth a{
+    text-decoration: none;
+    color: rgb(109,111,126);
+}
+
+#fourth{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 5%;
+}
+
+#fifth a{
+    text-decoration: none;
+    color: rgb(109,111,126);
+}
+
+#fifth{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 5%;
+}
+
+#sixth a{
+    text-decoration: none;
+    color: rgb(109,111,126);
+}
+
+#sixth{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 28%;
+}
+
+#seventh{
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+#eighth{
+    margin-right: 8%;
+}
+
+.backdiv{
+    overflow: visible;
+    display: flex;
+    justify-content: center;
+    background: rgb(54, 53, 67);
+    height: 100%;
+    overflow: visible;
+}
+
+.circle{
+    background-color: rgb(45,44,58);
+    width: 150%;
+    height: 70%;
+    left: 25%;
+    border-radius: 50%;
+    overflow: visible;
+    position: relative;
+    top: 5%;
+}
+
+.written circle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.written{
+    display: flex;
+    width: 100%;
+    height: 85%;
+}
+
+.hed1{
+    font-size: 450%;
+    color: rgb(164,163,177);
+    position: relative;
+    bottom: 10%;
+}
+
+.hed2{
+    color: rgb(254,254,255);
+    white-space: nowrap;
+    text-overflow: ''; 
+    font-size: 650%;
+    position: relative;
+    z-index: 1;
+    bottom: 10%;
+}
+
+.line{
+    background-color: rgb(211,169,78);
+    width: 200%;
+    height: 1%;
+    position: relative;
+    bottom: 5%;
+}
+
+.mybus{
+    color: rgb(140,139,155);
+    width: 280%;
+    overflow: visible;
+    font-size: large;
+    position: relative;
+    z-index: 1;
+}
+
+.all{
+    width: 5%;
+    height: 85vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    position: relative;
+    left: 10%;
+}
+
+.all .circle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    position: relative;
+}
+
+.doser{
+    position: relative;
+    width: 1%;
+    left: 20%;
+    top: 20%;
+    z-index: 1;
+}
+
+.serma{
+    position: relative;
+    bottom: 2%;
+    width: 50%;
+    font-size: large;
+    color: rgb(159, 158, 172);
+}
+
+.sermap{
+    position: relative;
+    width: 250px;
+    font-size: larger;
+    color: rgb(173, 172, 186);
+}
+
+.doser a{
+    position: relative;
+    white-space: nowrap;
+    text-decoration: none;
+    color: rgb(199, 163, 97);
+}
+
+.righ{
+    display: flex;
+    position: relative;
+    width: 200px;
+    top: 2%;
+}
+
+.right:hover{
+    cursor: pointer;
+}
+
+.right{
+    position: relative;
+    top: 8%;
+    width: 10%;
+    margin-left: 6%;
+}
+
+.facebook{
+    width: 40px;
+    height: 30px;
+}
+
+.faced{
+    position: relative;
+    width: 150px;
+    height: 40px;
+    background-color: rgb(72, 70, 84);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+}
+
+.twitter{
+    width: 40px;
+    height: 30px;
+}
+
+.twited{
+    position: relative;
+    width: 200px;
+    height: 40px;
+    background-color: rgb(72, 70, 84);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+}
+
+.instagram{
+    width: 35px;
+    height: 30px;
+}
+
+.instad{
+    position: relative;
+    width: 200px;
+    height: 40px;
+    background-color: rgb(72, 70, 84);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+}
+
+.pintrest{
+    width: 35px;
+    height: 30px;
+}
+
+.pinted{
+    position: relative;
+    width: 200px;
+    height: 40px;
+    background-color: rgb(72, 70, 84);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 5%;
+}
+
+.doser{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+}
+
+.soci{
+    position: relative;
+    top: 7%;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    margin-right: 5%;
+}
+
+.me{
+    position: relative;
+    width: 100%;
+    height: 95%;
+    right: 25%;
+    bottom: 10%;
+    z-index: 1;
+}
+
+.over{
+    position: relative;
+    left: 10%;
+    bottom: 28%;
+    background-color: rgb(64, 63, 79);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 15%;
+    width: 80%;
+    z-index: 1;
+}
+
+.over1{
+    display: flex;
+    color: rgb(207, 206, 220);
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+    height: 60%;
+    background-color: rgb(55, 52, 69);
+    margin: 5%;
+}
+
+.over1 img{
+    width: 30%;
+}
+
+.over2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(55, 52, 69);
+    width: 20%;
+    height: 60%;
+    margin: 5%;
+}
+
+.over2 img{
+    width: 85%;
+}
+
+.over3{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    color: rgb(219, 217, 227);
+    width: 20%;
+    height: 60%;
+    background-color: rgb(55, 52, 69);
+    margin: 5%;
+}
+
+.over3 img{
+    width: 20%;
+}
+
+.over4{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    color: rgb(224, 222, 233);
+    width: 20%;
+    height: 60%;
+    background-color: rgb(55, 52, 69);
+    margin: 5%;
+}
+
+.over4 img{
+    width: 30%;
+}
+
+/* -----------
+    next page
+----------- */
+
+.nepag{
+    background-color: rgb(40, 40, 52);
+    position: relative;
+    bottom: 35%;
+    height: 150%;
+    display: flex;
+    align-items: center;
+}   
+
+.nepag1{
+    width: 50%;
+}
+
+.wha{
+    color: rgb(254, 254, 255);
+    display: flex;
+    flex-direction: column;
+    margin-left: 24%;
+    margin-bottom: 3%;
+}
+
+.wha p{
+    width: 65%;
+    color: rgb(142, 142, 154);
+    font-size: larger;
+}
+
+.wha h1{
+    width: 85%;
+    font-size: 300%;
+    margin-bottom: 3%;
+}
+
+.expe{
+    display: flex;
+    flex-direction: column;
+}
+
+.expe h2{
+    font-size: 200%;
+    color: rgb(226, 183, 72);
+}
+
+.expe p{
+    color: rgb(142, 142, 154);
+}
+
+.expe2{
+    margin-left: 5%;
+    display: flex;
+    flex-direction: column;
+}
+
+.expe2 h2{
+    font-size: 200%;
+    color: rgb(226, 183, 72);
+}
+
+.expe2 p{
+    color: rgb(142, 142, 154);
+}
+
+.expe3{
+    display: flex;
+    flex-direction: column;
+}
+
+.expe3 h2{
+    font-size: 200%;
+    color: rgb(226, 183, 72);
+}
+
+.expe3 p{
+    color: rgb(142, 142, 154);
+}
+
+.expe4{
+    margin-left: 5%;
+    display: flex;
+    flex-direction: column;
+}
+
+.expe4 h2{
+    font-size: 200%;
+    color: rgb(226, 183, 72);
+}
+
+.expe4 p{
+    color: rgb(142, 142, 154);
+}
+
+.exp{
+    display: flex;
+    margin-bottom: 5%;
+    margin-left: 24%;
+}
+
+.exp2{
+    display: flex;
+    margin-left: 24%;
+}
+
+/* nepag2 */
+
+.nepag2{
+    margin-top: 5%;
+}
+
+.ui{
+    border-bottom: 1px solid gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 81%;
+    margin: 1%;
+}
+
+
+.ui img{
+    width: 30%;
+    margin-bottom: 5%;
+    margin-right: 5%;
+}
+
+.ui1 h2{
+    color: rgb(220, 220, 228);
+    margin-bottom: 2%;
+}
+
+.ui1 p{
+    color: rgb(142, 142, 154);
+    margin-top: 3%;
+}
+
+.uii{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 37%;
+}
+
+.uii img{
+    width: 100%;
+}
+
+.front img{
+    width: 5%;
+}
+
+.front{
+    border-bottom: 1px solid gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 81%;
+    margin: 1%;
+}
+
+
+.front img{
+    width: 30%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-right: 5%;
+}
+
+.front1 h2{
+    color: rgb(220, 220, 228);
+    margin-bottom: 2%;
+    white-space: nowrap;
+}
+
+.front1 p{
+    color: rgb(142, 142, 154);
+    margin-top: 3%;
+}
+
+.frontt{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20%;
+}
+
+.frontt img{
+    width: 100%;
+}
+
+.back img{
+    width: 5%;
+}
+
+.back{
+    border-bottom: 1px solid gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 81%;
+    margin: 1%;
+}
+
+
+.back img{
+    width: 30%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-right: 5%;
+}
+
+.back1 h2{
+    color: rgb(220, 220, 228);
+    margin-bottom: 2%;
+    white-space: nowrap;
+}
+
+.back1 p{
+    color: rgb(142, 142, 154);
+    margin-top: 3%;
+}
+
+.backk{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20%;
+}
+
+.backk img{
+    width: 100%;
+}
+
+/* nepag3 */
+
+.nepag3{
+    position: relative;
+    bottom: 35%;
+    background-color: rgb(65, 62, 81);
+    display: flex;
+    justify-content: center;
+    height: 20%;
+}
+
+.nepago{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 70%;
+}
+
+.desi{
+    background-color: rgb(65, 64, 82);
+    width: 20%;
+    margin-right: 3%;
+}
+
+.desi img{
+    background-color: rgb(56, 55, 71);
+    border-radius: 50%;
+    width: 10%;
+    margin-left: 5%;
+    margin-top: 5%;
+    margin-bottom: 4%;
+}
+
+.desi1 h3{
+    margin-left: 5%;
+    color: rgb(204, 203, 221);
+    margin-bottom: 2%;
+}
+
+.desi1 p{
+    width: 60%;
+    margin-left: 5%;
+    color: rgb(142, 142, 154);
+}
+
+.com{
+    background-color: rgb(65, 64, 82);
+    width: 20%;
+    margin-right: 3%;
+}
+
+.com img{
+    background-color: rgb(56, 55, 71);
+    border-radius: 50%;
+    width: 10%;
+    margin-left: 5%;
+    margin-top: 5%;
+    margin-bottom: 4%;
+}
+
+.com1 h3{
+    margin-left: 5%;
+    color: rgb(204, 203, 221);
+    margin-bottom: 2%;
+}
+
+.com1 p{
+    width: 70%;
+    margin-left: 5%;
+    color: rgb(142, 142, 154);
+}
+
+
+.res{
+    background-color: rgb(65, 64, 82);
+    width: 20%;
+    margin-right: 3%;
+}
+
+.res img{
+    background-color: rgb(56, 55, 71);
+    border-radius: 50%;
+    width: 10%;
+    margin-left: 5%;
+    margin-top: 5%;
+    margin-bottom: 4%;
+}
+
+.res1 h3{
+    margin-left: 5%;
+    color: rgb(204, 203, 221);
+    margin-bottom: 2%;
+}
+
+.res1 p{
+    width: 70%;
+    margin-left: 5%;
+    color: rgb(142, 142, 154);
+}
